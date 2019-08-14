@@ -12,7 +12,7 @@ usage() {
         echo "  syn_flood | slowloris | udp_traffic_assymetry | superspreader | dns_tunneling | malicious_domain"
         exit 1; }
 
-while getopts "h:f:p:m:g:e:c:a:s:d:" opt; do
+while getopts "h:f:p:m:g:e:c:a:s:" opt; do
     case "$opt" in
         f)
             f=${OPTARG}

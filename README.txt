@@ -26,6 +26,5 @@ variables explainations is in: ./generate.sh -h
 ./generate -f 200 -p 2000 -m 1000 -g 50 -e 1.7 -a syn_flood
 
 * extra parameter -a would include a attack pattern, here is syn_flood attack
-* if you want DIY the paramerts, set -d and the terminal will ask for the input
 
 
